@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin
+id="ws.vinca.magicdraw.causalLoop"
+name="Causal Loop Plugin"
+version="1.0"
+provider-name="Michael J. Vinca"
+class="ws.vinca.magicdraw.causalLoop.PlugIn">
+<requires>
+<api version="1.0"/>
+</requires>
+<runtime>
+<library name="CausalLoop.jar"/>
+</runtime>
+</plugin>

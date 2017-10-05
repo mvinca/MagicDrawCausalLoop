@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<resourceDescriptor
+ critical="false"
+ date="2017-10-01+00:00"
+ description="Support for Causal Loop Diagrams used in System Analysis"
+ group=""
+ homePage=""
+ id="1801"
+ mdVersionMax="higher"
+ mdVersionMin="18.0"
+ name="Causal Loop"
+ type="Custom Diagram">
+  <version
+   human="1.0"
+   internal="1" />
+
+  <provider
+   name="No Magic" />
+
+  <edition>Standard</edition>
+
+  <edition>Enterprise</edition>
+
+  <edition>Reader</edition>
+
+  <edition>Professional Java</edition>
+
+  <edition>OptimalJ</edition>
+
+  <edition>Professional C++</edition>
+
+  <edition>Professional C#</edition>
+
+  <edition>Professional ArcStyler</edition>
+
+  <edition>Professional EFFS ArcStyler</edition>
+
+  <!--requiredResource
+   id="1334" /-->
+
+  <installation>
+    <file
+     from="data/defaults/data/diagrams/Causal Loop Diagram/descriptor.xml"
+     to="data/defaults/data/diagrams/Causal Loop Diagram/descriptor.xml" />
+
+    <file
+     from="profiles/CausalLoopProfile.mdzip"
+     to="profiles/CausalLoopProfile.mdzip" />
+
+  </installation>
+</resourceDescriptor>
+
