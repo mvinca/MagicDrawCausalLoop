@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<resourceDescriptor critical="false" date="17-10-23" description="Support for Causal Loop Diagrams used in System Analysis" group="" homePage="" id="74115" mdVersionMax="higher" mdVersionMin="18.0" name="Causal Loop" product="Causal_Loop" restartMagicdraw="false" type="Plugin">
+    <version human="1.0" internal="100010" resource="1000100"/>
+    <provider email="michaelj@vinca.ws" homePage="" name="Michael Vinca"/>
+    <edition>Reader</edition>
+    <edition>Community</edition>
+    <edition>Standard</edition>
+    <edition>Professional Java</edition>
+    <edition>Professional C++</edition>
+    <edition>Professional C#</edition>
+    <edition>Professional</edition>
+    <edition>Architect</edition>
+    <edition>Enterprise</edition>
+    <installation>
+        <file from="data/defaults/data/diagrams/Causal Loop Diagram/descriptor.xml" to="data/defaults/data/diagrams/Causal Loop Diagram/descriptor.xml"/>
+        <file from="plugins/ws.vinca.magicdraw.causalLoop/CausalLoop.jar" to="plugins/ws.vinca.magicdraw.causalLoop/CausalLoop.jar"/>
+        <file from="plugins/ws.vinca.magicdraw.causalLoop/plugin.xml" to="plugins/ws.vinca.magicdraw.causalLoop/plugin.xml"/>
+        <file from="profiles/CausalLoopProfile.mdzip" to="profiles/CausalLoopProfile.mdzip"/>
+    </installation>
+</resourceDescriptor>
