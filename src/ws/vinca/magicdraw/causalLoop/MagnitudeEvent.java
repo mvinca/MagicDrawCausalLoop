@@ -1,13 +1,14 @@
 package ws.vinca.magicdraw.causalLoop;
 
 import com.nomagic.uml2.ext.magicdraw.classes.mdkernel.Association;
+import com.nomagic.uml2.ext.magicdraw.classes.mdkernel.EnumerationLiteral;
 import com.nomagic.uml2.ext.magicdraw.classes.mdkernel.Property;
 
 public class MagnitudeEvent implements ICausalEvent
 {
 	private Association link;
 	private Property property;
-	private Object value;
+	private EnumerationLiteral value;
 
 	@Override
 	public Association getLink()
@@ -36,8 +37,13 @@ public class MagnitudeEvent implements ICausalEvent
 	{
 		return value;
 	}
+	
+	public EnumerationLiteral getEnumerationValue()
+	{
+		return value;
+	}
 
-	public void setValue(Object value)
+	public void setValue(EnumerationLiteral value)
 	{
 		this.value = value;
 	}

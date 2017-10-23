@@ -16,19 +16,12 @@ public class CausalTransactionListener implements TransactionCommitListener
 
 	public CausalTransactionListener()
 	{
-		IEventConverter[] array = { new OppositeEventConverter(), 
-			new DebateableEventConverter(), 
-			new QuickFixEventConverter(),
-			new ConstraintCreatedEventConverter(),
-			new DelayedEventConverter(),
-			new MagnitudeEventConverter()};
+		IEventConverter[] array = { new OppositeEventConverter(), new DebateableEventConverter(),
+			new QuickFixEventConverter(), new ConstraintCreatedEventConverter(), new DelayedEventConverter(),
+			new MagnitudeEventConverter() };
 		converters = Arrays.asList(array);
-		IEventReactor[] array2 = { new OppositeEventReactor(), 
-			new DebateableEventReactor(), 
-			new QuickFixReactor(),
-			new ConstraintCreatedEventReactor(),
-			new DelayedEventReactor(),
-			new MagnitudeEventReactor()};
+		IEventReactor[] array2 = { new OppositeEventReactor(), new DebateableEventReactor(), new QuickFixReactor(),
+			new ConstraintCreatedEventReactor(), new DelayedEventReactor(), new MagnitudeEventReactor() };
 		reactors = Arrays.asList(array2);
 	}
 
@@ -58,7 +51,7 @@ public class CausalTransactionListener implements TransactionCommitListener
 				}
 				catch( Exception ex )
 				{
-					javax.swing.JOptionPane.showMessageDialog(null, ex.getMessage());
+					javax.swing.JOptionPane.showMessageDialog(null, "Exception: " + ex.getMessage());
 				}
 			}
 

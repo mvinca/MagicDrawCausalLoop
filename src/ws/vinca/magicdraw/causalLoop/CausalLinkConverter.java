@@ -4,8 +4,6 @@ import java.beans.PropertyChangeEvent;
 import java.util.ArrayList;
 import java.util.List;
 
-import javax.swing.JOptionPane;
-
 import com.nomagic.uml2.ext.magicdraw.classes.mdkernel.Association;
 import com.nomagic.uml2.ext.magicdraw.classes.mdkernel.Element;
 import com.nomagic.uml2.ext.magicdraw.classes.mdkernel.Property;
@@ -34,7 +32,10 @@ public abstract class CausalLinkConverter implements IEventConverter {
 						if( propertyTest instanceof Property )
 						{
 							Property property = (Property)propertyTest;
-							ConvertCausalLinkPropertyEvent(property,association, event.getNewValue(), events);
+							ConvertCausalLinkPropertyEvent(property,
+								association, 
+								event.getNewValue(), 
+								events);
 						}
 					}
 				}

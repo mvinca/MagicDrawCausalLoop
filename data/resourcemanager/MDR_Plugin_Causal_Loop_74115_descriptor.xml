@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<resourceDescriptor critical="false" date="17-10-23" description="Support for Causal Loop Diagrams used in System Analysis" group="" homePage="" id="74115" mdVersionMax="higher" mdVersionMin="18.0" name="Causal Loop" product="Causal_Loop" restartMagicdraw="false" type="Plugin">
+    <version human="1" internal="1" resource="10"/>
+    <provider email="michaelj@vinca.ws" homePage="" name="Michael Vinca"/>
+    <edition>Reader</edition>
+    <edition>Community</edition>
+    <edition>Standard</edition>
+    <edition>Professional Java</edition>
+    <edition>Professional C++</edition>
+    <edition>Professional C#</edition>
+    <edition>Professional</edition>
+    <edition>Architect</edition>
+    <edition>Enterprise</edition>
+    <installation>
+        <file from=".classpath" to=".classpath"/>
+        <file from=".git/COMMIT_EDITMSG" to=".git/COMMIT_EDITMSG"/>
+        <file from=".git/config" to=".git/config"/>
+        <file from=".git/description" to=".git/description"/>
+        <file from=".git/FETCH_HEAD" to=".git/FETCH_HEAD"/>
+        <file from=".git/HEAD" to=".git/HEAD"/>
+        <file from=".git/hooks/applypatch-msg.sample" to=".git/hooks/applypatch-msg.sample"/>
+        <file from=".git/hooks/commit-msg.sample" to=".git/hooks/commit-msg.sample"/>
+        <file from=".git/hooks/post-update.sample" to=".git/hooks/post-update.sample"/>
+        <file from=".git/hooks/pre-applypatch.sample" to=".git/hooks/pre-applypatch.sample"/>
+        <file from=".git/hooks/pre-commit.sample" to=".git/hooks/pre-commit.sample"/>
+        <file from=".git/hooks/pre-push.sample" to=".git/hooks/pre-push.sample"/>
+        <file from=".git/hooks/pre-rebase.sample" to=".git/hooks/pre-rebase.sample"/>
+        <file from=".git/hooks/prepare-commit-msg.sample" to=".git/hooks/prepare-commit-msg.sample"/>
+        <file from=".git/hooks/update.sample" to=".git/hooks/update.sample"/>
+        <file from=".git/index" to=".git/index"/>
+        <file from=".git/info/exclude" to=".git/info/exclude"/>
+        <file from=".git/logs/HEAD" to=".git/logs/HEAD"/>
+        <file from=".git/logs/refs/heads/master" to=".git/logs/refs/heads/master"/>
+        <file from=".git/logs/refs/remotes/origin/master" to=".git/logs/refs/remotes/origin/master"/>
+        <file from=".git/objects/00/93d2db34f7199ef52d484875375cb82497433f" to=".git/objects/00/93d2db34f7199ef52d484875375cb82497433f"/>
+        <file from=".git/objects/07/7cba4b54f63ddd41b645b9533c7f3125c1351f" to=".git/objects/07/7cba4b54f63ddd41b645b9533c7f3125c1351f"/>
+        <file from=".git/objects/0d/04bf5806fd07c0faed8199247e44c3eca356a0" to=".git/objects/0d/04bf5806fd07c0faed8199247e44c3eca356a0"/>
+        <file from=".git/objects/11/155c35bd25788913bb500642eba597f75ab03f" to=".git/objects/11/155c35bd25788913bb500642eba597f75ab03f"/>
+        <file from=".git/objects/17/3a8e2e33db583e60f84850399551bbbad2fa71" to=".git/objects/17/3a8e2e33db583e60f84850399551bbbad2fa71"/>
+        <file from=".git/objects/18/f9084bee1f057b043b575ebb1afe4fab95e3e7" to=".git/objects/18/f9084bee1f057b043b575ebb1afe4fab95e3e7"/>
+        <file from=".git/objects/21/2594214e42d2e7bfdc2eafd576d7055bf5a928" to=".git/objects/21/2594214e42d2e7bfdc2eafd576d7055bf5a928"/>
+        <file from=".git/objects/2a/17bcd9359568fb93bf38534584b5cef6fc138e" to=".git/objects/2a/17bcd9359568fb93bf38534584b5cef6fc138e"/>
+        <file from=".git/objects/35/2e757aa075207ce93f737e48ca738dbb7f8878" to=".git/objects/35/2e757aa075207ce93f737e48ca738dbb7f8878"/>
+        <file from=".git/objects/37/4675a383565834abdcab092cdded379622dec0" to=".git/objects/37/4675a383565834abdcab092cdded379622dec0"/>
+        <file from=".git/objects/3c/f6ea08e4be723b1a286bf1114cbebd944ba416" to=".git/objects/3c/f6ea08e4be723b1a286bf1114cbebd944ba416"/>
+        <file from=".git/objects/41/9b56337e23a90eedab908557360947d44cfd7f" to=".git/objects/41/9b56337e23a90eedab908557360947d44cfd7f"/>
+        <file from=".git/objects/43/a8088e78e302e4c53144323f659625471c1805" to=".git/objects/43/a8088e78e302e4c53144323f659625471c1805"/>
+        <file from=".git/objects/4a/1c51ff9010953b1eea979ce6d5a53f583b26b7" to=".git/objects/4a/1c51ff9010953b1eea979ce6d5a53f583b26b7"/>
+        <file from=".git/objects/4e/6c740c4cc97242823e3ab484fc7624b53131e4" to=".git/objects/4e/6c740c4cc97242823e3ab484fc7624b53131e4"/>
+        <file from=".git/objects/50/efbf20ea779932a2083da72cfa9bd78a60bf64" to=".git/objects/50/efbf20ea779932a2083da72cfa9bd78a60bf64"/>
+        <file from=".git/objects/52/fb884fdbdd57a9ffd4156a9da202d200508f07" to=".git/objects/52/fb884fdbdd57a9ffd4156a9da202d200508f07"/>
+        <file from=".git/objects/60/087f41aa64dd5070ebffa86d58c40a419a2633" to=".git/objects/60/087f41aa64dd5070ebffa86d58c40a419a2633"/>
+        <file from=".git/objects/62/76146e85a2e68adb3aea00386da0f585ceb446" to=".git/objects/62/76146e85a2e68adb3aea00386da0f585ceb446"/>
+        <file from=".git/objects/62/8923191abbfb561b924283ed59e8597cced025" to=".git/objects/62/8923191abbfb561b924283ed59e8597cced025"/>
+        <file from=".git/objects/66/daf83e5fd2ae05dc26cbe9171968b06bf17180" to=".git/objects/66/daf83e5fd2ae05dc26cbe9171968b06bf17180"/>
+        <file from=".git/objects/7b/25b305bf7a2621f4b74300cc3e320c4aabe8b8" to=".git/objects/7b/25b305bf7a2621f4b74300cc3e320c4aabe8b8"/>
+        <file from=".git/objects/7c/b022c76715da5b9799dfc01b804e5af5ff5a69" to=".git/objects/7c/b022c76715da5b9799dfc01b804e5af5ff5a69"/>
+        <file from=".git/objects/7d/622d5d800c570095d717f874f56bf173cb5836" to=".git/objects/7d/622d5d800c570095d717f874f56bf173cb5836"/>
+        <file from=".git/objects/86/754e3bff5a0f470c610ee8d3b995e749b8107f" to=".git/objects/86/754e3bff5a0f470c610ee8d3b995e749b8107f"/>
+        <file from=".git/objects/8e/49aa6f7d93d69010f9b5d24ff450ddfc5f1dd2" to=".git/objects/8e/49aa6f7d93d69010f9b5d24ff450ddfc5f1dd2"/>
+        <file from=".git/objects/98/7702f8c194da812da158666fbc5349381c0f77" to=".git/objects/98/7702f8c194da812da158666fbc5349381c0f77"/>
+        <file from=".git/objects/a1/b2849038974d2eeac9032a181f555241d5491d" to=".git/objects/a1/b2849038974d2eeac9032a181f555241d5491d"/>
+        <file from=".git/objects/a2/41edcae38f5cabb7e18e492db64593dfb07a2c" to=".git/objects/a2/41edcae38f5cabb7e18e492db64593dfb07a2c"/>
+        <file from=".git/objects/a7/3e17e6d5c15d88d2008ca5c13b90d7c9894e23" to=".git/objects/a7/3e17e6d5c15d88d2008ca5c13b90d7c9894e23"/>
+        <file from=".git/objects/b1/344ec077b983248cbc6aa74e5694920f81807d" to=".git/objects/b1/344ec077b983248cbc6aa74e5694920f81807d"/>
+        <file from=".git/objects/b3/a3a4d15ad223625411ae9e6dad304ef2090cb4" to=".git/objects/b3/a3a4d15ad223625411ae9e6dad304ef2090cb4"/>
+        <file from=".git/objects/b5/96484c6219e53e71025600c936f0990322c9ac" to=".git/objects/b5/96484c6219e53e71025600c936f0990322c9ac"/>
+        <file from=".git/objects/ba/632c04ab785b2466bc5b491db876b141d36b97" to=".git/objects/ba/632c04ab785b2466bc5b491db876b141d36b97"/>
+        <file from=".git/objects/bb/35fa0a87b032ee9d0b128004c1edbd464f07bf" to=".git/objects/bb/35fa0a87b032ee9d0b128004c1edbd464f07bf"/>
+        <file from=".git/objects/bf/993a026b1f793c1b28b49b08b4f48f0d6d8ab6" to=".git/objects/bf/993a026b1f793c1b28b49b08b4f48f0d6d8ab6"/>
+        <file from=".git/objects/bf/bff311a508bcd73e0c7583bb6e242b3b0d5e71" to=".git/objects/bf/bff311a508bcd73e0c7583bb6e242b3b0d5e71"/>
+        <file from=".git/objects/cd/5268509dc269911850b460018841f95d3a8fc6" to=".git/objects/cd/5268509dc269911850b460018841f95d3a8fc6"/>
+        <file from=".git/objects/cd/bcbe3325b66ff35c1a4fd87c56ba4717689d76" to=".git/objects/cd/bcbe3325b66ff35c1a4fd87c56ba4717689d76"/>
+        <file from=".git/objects/cd/f484384007d7dacd36df816130c55bf9e6083b" to=".git/objects/cd/f484384007d7dacd36df816130c55bf9e6083b"/>
+        <file from=".git/objects/d1/eb2d3683772431462e5aba44a8b93e46538ae5" to=".git/objects/d1/eb2d3683772431462e5aba44a8b93e46538ae5"/>
+        <file from=".git/objects/d2/356c95563fe88467a51da342fc818ecf12a1ef" to=".git/objects/d2/356c95563fe88467a51da342fc818ecf12a1ef"/>
+        <file from=".git/objects/d8/c10b79db1685edfefc23e50e22a4433e9692e9" to=".git/objects/d8/c10b79db1685edfefc23e50e22a4433e9692e9"/>
+        <file from=".git/objects/db/b0b7fe32aeb027799b1034fa06edc9042f04dc" to=".git/objects/db/b0b7fe32aeb027799b1034fa06edc9042f04dc"/>
+        <file from=".git/objects/dc/3ba86a67635ba2c463bdb7a24b00088f87f8d0" to=".git/objects/dc/3ba86a67635ba2c463bdb7a24b00088f87f8d0"/>
+        <file from=".git/objects/e3/7434c4c85c0da15a382375c13129e5f74aad98" to=".git/objects/e3/7434c4c85c0da15a382375c13129e5f74aad98"/>
+        <file from=".git/objects/f4/b752f698befb418766f424a84f73cfb70cd05d" to=".git/objects/f4/b752f698befb418766f424a84f73cfb70cd05d"/>
+        <file from=".git/objects/fc/6a32447a41178756244031aa9d231cbb3093af" to=".git/objects/fc/6a32447a41178756244031aa9d231cbb3093af"/>
+        <file from=".git/objects/fd/26d3c2cf272cf3bc681c5a9acb672c60086827" to=".git/objects/fd/26d3c2cf272cf3bc681c5a9acb672c60086827"/>
+        <file from=".git/objects/fd/bb62a3d85ac8c873a0c5776a60cdf1961cc68e" to=".git/objects/fd/bb62a3d85ac8c873a0c5776a60cdf1961cc68e"/>
+        <file from=".git/refs/heads/master" to=".git/refs/heads/master"/>
+        <file from=".git/refs/remotes/origin/master" to=".git/refs/remotes/origin/master"/>
+        <file from=".gitignore" to=".gitignore"/>
+        <file from=".project" to=".project"/>
+        <file from=".settings/org.eclipse.jdt.core.prefs" to=".settings/org.eclipse.jdt.core.prefs"/>
+        <file from="bin/ws/vinca/magicdraw/causalLoop/CausalLinkConverter.class" to="bin/ws/vinca/magicdraw/causalLoop/CausalLinkConverter.class"/>
+        <file from="bin/ws/vinca/magicdraw/causalLoop/CausalTransactionListener$1.class" to="bin/ws/vinca/magicdraw/causalLoop/CausalTransactionListener$1.class"/>
+        <file from="bin/ws/vinca/magicdraw/causalLoop/CausalTransactionListener.class" to="bin/ws/vinca/magicdraw/causalLoop/CausalTransactionListener.class"/>
+        <file from="bin/ws/vinca/magicdraw/causalLoop/ConstraintCreatedEvent.class" to="bin/ws/vinca/magicdraw/causalLoop/ConstraintCreatedEvent.class"/>
+        <file from="bin/ws/vinca/magicdraw/causalLoop/ConstraintCreatedEventConverter.class" to="bin/ws/vinca/magicdraw/causalLoop/ConstraintCreatedEventConverter.class"/>
+        <file from="bin/ws/vinca/magicdraw/causalLoop/ConstraintCreatedEventReactor.class" to="bin/ws/vinca/magicdraw/causalLoop/ConstraintCreatedEventReactor.class"/>
+        <file from="bin/ws/vinca/magicdraw/causalLoop/DebateableEvent.class" to="bin/ws/vinca/magicdraw/causalLoop/DebateableEvent.class"/>
+        <file from="bin/ws/vinca/magicdraw/causalLoop/DebateableEventConverter.class" to="bin/ws/vinca/magicdraw/causalLoop/DebateableEventConverter.class"/>
+        <file from="bin/ws/vinca/magicdraw/causalLoop/DebateableEventReactor.class" to="bin/ws/vinca/magicdraw/causalLoop/DebateableEventReactor.class"/>
+        <file from="bin/ws/vinca/magicdraw/causalLoop/DelayedEvent.class" to="bin/ws/vinca/magicdraw/causalLoop/DelayedEvent.class"/>
+        <file from="bin/ws/vinca/magicdraw/causalLoop/DelayedEventConverter.class" to="bin/ws/vinca/magicdraw/causalLoop/DelayedEventConverter.class"/>
+        <file from="bin/ws/vinca/magicdraw/causalLoop/DelayedEventReactor.class" to="bin/ws/vinca/magicdraw/causalLoop/DelayedEventReactor.class"/>
+        <file from="bin/ws/vinca/magicdraw/causalLoop/ICausalEvent.class" to="bin/ws/vinca/magicdraw/causalLoop/ICausalEvent.class"/>
+        <file from="bin/ws/vinca/magicdraw/causalLoop/IEventConverter.class" to="bin/ws/vinca/magicdraw/causalLoop/IEventConverter.class"/>
+        <file from="bin/ws/vinca/magicdraw/causalLoop/IEventReactor.class" to="bin/ws/vinca/magicdraw/causalLoop/IEventReactor.class"/>
+        <file from="bin/ws/vinca/magicdraw/causalLoop/MagnitudeEvent.class" to="bin/ws/vinca/magicdraw/causalLoop/MagnitudeEvent.class"/>
+        <file from="bin/ws/vinca/magicdraw/causalLoop/MagnitudeEventConverter.class" to="bin/ws/vinca/magicdraw/causalLoop/MagnitudeEventConverter.class"/>
+        <file from="bin/ws/vinca/magicdraw/causalLoop/MagnitudeEventReactor.class" to="bin/ws/vinca/magicdraw/causalLoop/MagnitudeEventReactor.class"/>
+        <file from="bin/ws/vinca/magicdraw/causalLoop/OppositeEvent.class" to="bin/ws/vinca/magicdraw/causalLoop/OppositeEvent.class"/>
+        <file from="bin/ws/vinca/magicdraw/causalLoop/OppositeEventConverter.class" to="bin/ws/vinca/magicdraw/causalLoop/OppositeEventConverter.class"/>
+        <file from="bin/ws/vinca/magicdraw/causalLoop/OppositeEventReactor.class" to="bin/ws/vinca/magicdraw/causalLoop/OppositeEventReactor.class"/>
+        <file from="bin/ws/vinca/magicdraw/causalLoop/PlugIn$1.class" to="bin/ws/vinca/magicdraw/causalLoop/PlugIn$1.class"/>
+        <file from="bin/ws/vinca/magicdraw/causalLoop/PlugIn.class" to="bin/ws/vinca/magicdraw/causalLoop/PlugIn.class"/>
+        <file from="bin/ws/vinca/magicdraw/causalLoop/QuickFixEvent.class" to="bin/ws/vinca/magicdraw/causalLoop/QuickFixEvent.class"/>
+        <file from="bin/ws/vinca/magicdraw/causalLoop/QuickFixEventConverter.class" to="bin/ws/vinca/magicdraw/causalLoop/QuickFixEventConverter.class"/>
+        <file from="bin/ws/vinca/magicdraw/causalLoop/QuickFixReactor.class" to="bin/ws/vinca/magicdraw/causalLoop/QuickFixReactor.class"/>
+        <file from="data/defaults/data/diagrams/Causal Loop Diagram/descriptor.xml" to="data/defaults/data/diagrams/Causal Loop Diagram/descriptor.xml"/>
+        <file from="LICENSE" to="LICENSE"/>
+        <file from="plugin.xml" to="plugin.xml"/>
+        <file from="profiles/CausalLoopProfile.mdzip" to="profiles/CausalLoopProfile.mdzip"/>
+        <file from="src/ws/vinca/magicdraw/causalLoop/CausalLinkConverter.java" to="src/ws/vinca/magicdraw/causalLoop/CausalLinkConverter.java"/>
+        <file from="src/ws/vinca/magicdraw/causalLoop/CausalTransactionListener.java" to="src/ws/vinca/magicdraw/causalLoop/CausalTransactionListener.java"/>
+        <file from="src/ws/vinca/magicdraw/causalLoop/ConstraintCreatedEvent.java" to="src/ws/vinca/magicdraw/causalLoop/ConstraintCreatedEvent.java"/>
+        <file from="src/ws/vinca/magicdraw/causalLoop/ConstraintCreatedEventConverter.java" to="src/ws/vinca/magicdraw/causalLoop/ConstraintCreatedEventConverter.java"/>
+        <file from="src/ws/vinca/magicdraw/causalLoop/ConstraintCreatedEventReactor.java" to="src/ws/vinca/magicdraw/causalLoop/ConstraintCreatedEventReactor.java"/>
+        <file from="src/ws/vinca/magicdraw/causalLoop/DebateableEvent.java" to="src/ws/vinca/magicdraw/causalLoop/DebateableEvent.java"/>
+        <file from="src/ws/vinca/magicdraw/causalLoop/DebateableEventConverter.java" to="src/ws/vinca/magicdraw/causalLoop/DebateableEventConverter.java"/>
+        <file from="src/ws/vinca/magicdraw/causalLoop/DebateableEventReactor.java" to="src/ws/vinca/magicdraw/causalLoop/DebateableEventReactor.java"/>
+        <file from="src/ws/vinca/magicdraw/causalLoop/DelayedEvent.java" to="src/ws/vinca/magicdraw/causalLoop/DelayedEvent.java"/>
+        <file from="src/ws/vinca/magicdraw/causalLoop/DelayedEventConverter.java" to="src/ws/vinca/magicdraw/causalLoop/DelayedEventConverter.java"/>
+        <file from="src/ws/vinca/magicdraw/causalLoop/DelayedEventReactor.java" to="src/ws/vinca/magicdraw/causalLoop/DelayedEventReactor.java"/>
+        <file from="src/ws/vinca/magicdraw/causalLoop/ICausalEvent.java" to="src/ws/vinca/magicdraw/causalLoop/ICausalEvent.java"/>
+        <file from="src/ws/vinca/magicdraw/causalLoop/IEventConverter.java" to="src/ws/vinca/magicdraw/causalLoop/IEventConverter.java"/>
+        <file from="src/ws/vinca/magicdraw/causalLoop/IEventReactor.java" to="src/ws/vinca/magicdraw/causalLoop/IEventReactor.java"/>
+        <file from="src/ws/vinca/magicdraw/causalLoop/MagnitudeEvent.java" to="src/ws/vinca/magicdraw/causalLoop/MagnitudeEvent.java"/>
+        <file from="src/ws/vinca/magicdraw/causalLoop/MagnitudeEventConverter.java" to="src/ws/vinca/magicdraw/causalLoop/MagnitudeEventConverter.java"/>
+        <file from="src/ws/vinca/magicdraw/causalLoop/MagnitudeEventReactor.java" to="src/ws/vinca/magicdraw/causalLoop/MagnitudeEventReactor.java"/>
+        <file from="src/ws/vinca/magicdraw/causalLoop/OppositeEvent.java" to="src/ws/vinca/magicdraw/causalLoop/OppositeEvent.java"/>
+        <file from="src/ws/vinca/magicdraw/causalLoop/OppositeEventConverter.java" to="src/ws/vinca/magicdraw/causalLoop/OppositeEventConverter.java"/>
+        <file from="src/ws/vinca/magicdraw/causalLoop/OppositeEventReactor.java" to="src/ws/vinca/magicdraw/causalLoop/OppositeEventReactor.java"/>
+        <file from="src/ws/vinca/magicdraw/causalLoop/PlugIn.java" to="src/ws/vinca/magicdraw/causalLoop/PlugIn.java"/>
+        <file from="src/ws/vinca/magicdraw/causalLoop/QuickFixEvent.java" to="src/ws/vinca/magicdraw/causalLoop/QuickFixEvent.java"/>
+        <file from="src/ws/vinca/magicdraw/causalLoop/QuickFixEventConverter.java" to="src/ws/vinca/magicdraw/causalLoop/QuickFixEventConverter.java"/>
+        <file from="src/ws/vinca/magicdraw/causalLoop/QuickFixReactor.java" to="src/ws/vinca/magicdraw/causalLoop/QuickFixReactor.java"/>
+    </installation>
+</resourceDescriptor>

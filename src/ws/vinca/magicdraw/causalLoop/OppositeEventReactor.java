@@ -14,7 +14,6 @@ public class OppositeEventReactor implements IEventReactor {
 	{
 		if( e instanceof OppositeEvent )
 		{
-
 			OppositeEvent oe = (OppositeEvent)e;
 			String multiplicity = (Boolean)StereotypesHelper.getStereotypePropertyFirst(oe.getLink(), "Causal Link", "Delay") ?
 				"|| " : "";
